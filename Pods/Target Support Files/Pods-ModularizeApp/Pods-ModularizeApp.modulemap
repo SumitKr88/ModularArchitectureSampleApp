@@ -1,0 +1,6 @@
+framework module Pods_ModularizeApp {
+  umbrella header "Pods-ModularizeApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

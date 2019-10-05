@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-ModularizeApp/Pods-ModularizeApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/JSONUtilities/JSONUtilities.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework

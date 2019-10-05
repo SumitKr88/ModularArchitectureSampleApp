@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.0.0-rc.2)
+  - JSONUtilities (5.0.0)
+  - MBProgressHUD (1.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.0-beta.5)
+  - JSONUtilities (= 5.0.0)
+  - MBProgressHUD (~> 1.1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - JSONUtilities
+    - MBProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: f9450d3c7f6bea2ad62e7a541c3e9b186c7991d6
+  JSONUtilities: 75a1eeac723dd8897f7b6f7e1d06cc1105a706c5
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+
+PODFILE CHECKSUM: e3ba53289a5a3018f1b2936c4cd377319a57c83d
+
+COCOAPODS: 1.7.4

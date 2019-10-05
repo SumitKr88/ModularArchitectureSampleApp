@@ -1,0 +1,6 @@
+framework module JSONUtilities {
+  umbrella header "JSONUtilities-umbrella.h"
+
+  export *
+  module * { export * }
+}

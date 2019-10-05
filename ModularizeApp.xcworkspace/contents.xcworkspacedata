@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:ModularizeApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Features/Core/Core.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Features/UI/UI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/../Features/Feature1/Feature1.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Features/Feature1/../Feature2/Feature2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
