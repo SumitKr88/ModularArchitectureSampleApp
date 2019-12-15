@@ -19,7 +19,7 @@ public class Feature1Manager {
     
     /// Indicates the shared instance of NetworkManager
     private let networkManager = NetworkManager.shared
-
+    
     // MARK: - Initializer
     public init() {}
 }
@@ -27,15 +27,15 @@ public class Feature1Manager {
 extension Feature1Manager {
     
     public func fetchEventWithId(id: String,
-                          success: @escaping ((Event) -> Void),
-                          failure: @escaping ((Error) -> Void)) {
+                                 success: @escaping ((Event) -> Void),
+                                 failure: @escaping ((Error) -> Void)) {
         
-     print("Feature1Manager: Calling function..")
-     networkManager.fetchEventById(id: id,
-                                   success: success,
-                                   failure: failure)
-     print("Feature1: Return/save UserProfile along with success/failure closures")
-    
+        print("Feature1Manager: Calling function..")
+        networkManager.fetchEventById(id: id,
+                                      success: success,
+                                      failure: failure)
+        print("Feature1: Return/save UserProfile along with success/failure closures")
+        
     }
-                          
+    
 }

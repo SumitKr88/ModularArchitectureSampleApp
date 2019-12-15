@@ -48,6 +48,7 @@ end
 
 target 'Feature1' do
   project project_path("Feature1")
+  networkAndParsingPods
   uiPods
   target 'Feature1Tests' do
   end

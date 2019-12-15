@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		69EF2A0133F8E95DADEBE729 /* Pods_Feature1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD23AF67380129215EA26458 /* Pods_Feature1.framework */; };
+		74146213235357F800115611 /* FetchEventRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74146212235357F800115611 /* FetchEventRequest.swift */; };
+		7414621523535A3500115611 /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7414621423535A3500115611 /* RequestType.swift */; };
 		749478082345D283006518B6 /* Feature1Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749478072345D283006518B6 /* Feature1Manager.swift */; };
 		7494780B2345D2FF006518B6 /* NetworkManager+Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7494780A2345D2FF006518B6 /* NetworkManager+Event.swift */; };
 		7494780E2345D462006518B6 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7494780D2345D462006518B6 /* Event.swift */; };
@@ -32,6 +34,8 @@
 /* Begin PBXFileReference section */
 		464E5A781EFC486129F79687 /* Pods-Feature1-Feature1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feature1-Feature1Tests.debug.xcconfig"; path = "../ModularizeApp/Pods/Target Support Files/Pods-Feature1-Feature1Tests/Pods-Feature1-Feature1Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		50278DFFCC4305496538C407 /* Pods-Feature1-Feature1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feature1-Feature1Tests.release.xcconfig"; path = "../ModularizeApp/Pods/Target Support Files/Pods-Feature1-Feature1Tests/Pods-Feature1-Feature1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		74146212235357F800115611 /* FetchEventRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchEventRequest.swift; sourceTree = "<group>"; };
+		7414621423535A3500115611 /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
 		749478072345D283006518B6 /* Feature1Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature1Manager.swift; sourceTree = "<group>"; };
 		7494780A2345D2FF006518B6 /* NetworkManager+Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkManager+Event.swift"; sourceTree = "<group>"; };
 		7494780D2345D462006518B6 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
@@ -72,12 +76,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		749478092345D2D1006518B6 /* NetworkManager */ = {
+		7414620F235357A600115611 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				74146211235357BD00115611 /* Managers */,
+				74146210235357AD00115611 /* Request */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		74146210235357AD00115611 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				74146212235357F800115611 /* FetchEventRequest.swift */,
+				7414621423535A3500115611 /* RequestType.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		74146211235357BD00115611 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
 				7494780A2345D2FF006518B6 /* NetworkManager+Event.swift */,
 			);
-			path = NetworkManager;
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		7494780C2345D454006518B6 /* Models */ = {
@@ -111,8 +133,8 @@
 		74E44BE8233FBB7000DE61F1 /* Feature1 */ = {
 			isa = PBXGroup;
 			children = (
+				7414620F235357A600115611 /* Network */,
 				7494780C2345D454006518B6 /* Models */,
-				749478092345D2D1006518B6 /* NetworkManager */,
 				74E44BE9233FBB7000DE61F1 /* Feature1.h */,
 				749478072345D283006518B6 /* Feature1Manager.swift */,
 				74E44BEA233FBB7000DE61F1 /* Info.plist */,
@@ -332,6 +354,8 @@
 				749478082345D283006518B6 /* Feature1Manager.swift in Sources */,
 				7494780E2345D462006518B6 /* Event.swift in Sources */,
 				7494780B2345D2FF006518B6 /* NetworkManager+Event.swift in Sources */,
+				74146213235357F800115611 /* FetchEventRequest.swift in Sources */,
+				7414621523535A3500115611 /* RequestType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

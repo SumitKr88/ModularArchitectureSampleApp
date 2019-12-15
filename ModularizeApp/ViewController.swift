@@ -14,7 +14,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
         /// Using Coremanager to access functions from Core framework into features
         CoreManager.shared.fetchUserInfo(id: "12345", success: { (userProfile) in
