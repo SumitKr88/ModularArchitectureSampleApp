@@ -26,7 +26,7 @@ public struct Constants {
     }
     
     public struct Environment {
-        public static let baseURL = "https://amer-poc7-test.apigee.net/v1/"
+        public static let baseURL = "YOUR_API_BASE_URL"
     }
     
     /// Constants for all the ApigeeKeys keys used in code
